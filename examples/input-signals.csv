@@ -1,0 +1,6 @@
+signal_id,signal_type,label,score_or_direction,source_id,source_status,interpretation,review_status
+SIG-01,consumer_need,Grounded reassurance,high,SYN-REPORT-01,synthetic,"Consumers seek tangible, dependable experiences amid rapid change",reviewed
+SIG-02,consumer_need,Selective connection,rising,SYN-REPORT-01,synthetic,"Attention moves toward fewer but more meaningful interactions",reviewed
+SIG-03,design_mindset,Sensory clarity,high,SYN-REPORT-02,synthetic,"Material character becomes a tool for emotional clarity",reviewed
+SIG-04,material_narrative,Quiet tactility,active,SYN-MATERIAL-01,synthetic,"Dry surfaces, subtle texture and softened structure",reviewed
+SIG-05,colour_signal,Mineral calm,developing,SYN-COLOUR-01,synthetic,"Muted mineral hues support a calm trans-seasonal palette",reviewed

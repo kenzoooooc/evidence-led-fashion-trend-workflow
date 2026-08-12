@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fashion visual observation",
+  "type": "object",
+  "required": ["observation_id", "source_id", "garment", "material_status", "confidence", "review_status"],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "season": {"type": "string"},
+    "colour": {"type": "array", "items": {"type": "string"}},
+    "surface": {"type": "array", "items": {"type": "string"}},
+    "silhouette": {"type": "string"},
+    "garment": {"type": "string"},
+    "material_status": {"enum": ["confirmed", "sourced", "inferred", "unknown"]},
+    "material_inference": {"type": ["string", "null"]},
+    "style_primary": {"type": "string"},
+    "style_secondary": {"type": "array", "maxItems": 2, "items": {"type": "string"}},
+    "confidence": {"enum": ["low", "medium", "high"]},
+    "review_status": {"enum": ["pending", "reviewed", "rejected"]}
+  }
+}

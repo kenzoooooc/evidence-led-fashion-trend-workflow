@@ -1,0 +1,4 @@
+observation_id,source_id,season,category,colour,surface,silhouette,garment,material_status,material_inference,style_primary,confidence,review_status
+OBS-001,SYN-LOOK-01,SS-X,tailoring,mineral-grey,dry-matte,relaxed,soft-shoulder-jacket,inferred,"linen-like plain weave",quiet-tailoring,medium,reviewed
+OBS-002,SYN-LOOK-02,SS-X,outerwear,dusty-blue,paper-touch,boxy,short-utility-jacket,inferred,"lightweight cellulosic blend",urban-utility,medium,reviewed
+OBS-003,SYN-LOOK-03,SS-X,shirts,clay,washed,fluid,open-collar-shirt,unknown,,relaxed-craft,low,pending
